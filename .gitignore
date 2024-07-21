@@ -1,0 +1,14 @@
+build/
+
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+*.old
+*.orig
+*.rej
+
+.DS_Store
+Thumbs.db
