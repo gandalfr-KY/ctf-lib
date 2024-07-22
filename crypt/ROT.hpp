@@ -13,7 +13,7 @@ std::string encode_ROT(const std::string &s, uint8_t proceed) {
     assert(proceed <= 25);
     std::string enc;
     enc.reserve(s.size());
-    for (char c : s) {
+    for (u8 c : s) {
         if (std::isalpha(c)) {
             uint16_t n = c;
             n -= (std::islower(c) ? 'a' : 'A');

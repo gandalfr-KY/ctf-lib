@@ -9,6 +9,7 @@ include_directories(${CMAKE_SOURCE_DIR})
 add_library(GandalfrCTF STATIC
     dummy.cpp
     crypt/ROT.hpp
+    crypt/base64.hpp
     standard.hpp
     types.hpp
 )
